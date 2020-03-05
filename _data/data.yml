@@ -1,0 +1,181 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Kasper Van Lombeek
+    tagline: Full Stack Data-Scientist
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: kasper.vanlombeek@gmail.com
+    phone: +32 479 521 356
+    website: kaspervanlombeek.com #do not add http://
+    linkedin: kasper-van-lombeek-679aa927
+    github: 
+    gitlab:
+    bitbucket:
+    twitter: '@kvanlombeek'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: Dutch
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Daily conversations
+
+    interests:
+      - item: Windsurfing
+        link:
+
+      - item: 
+        link:
+
+      - item: 
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I like to call myself a full stack data-scientist, as I am interested in 
+      every aspect of modern data-science. From cleaning small .csv files to large Postgress databases,
+      from training a linear model to a deep neural net, from a Matplotlib visualisation to a 
+      responsive web application.
+
+
+
+education:
+    - degree: MSc in Engineering
+      university: Catholic University of Leuven
+      time: 2003 - 2008
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: MSc in Statistics
+      university: University of Ghent
+      time: 2012 - 2013
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+experiences:
+    - role: Service engineer
+      time: 2011 - 2013
+      company: Elliot Turbo
+      details: |
+        After my graduation as energy engineer, I wanted to travel. So I joined Elliot Turbo
+        as service engineer. I traveled in the US, Europe and the Middle-East to repair 
+        and overhaul 80MW compressors.
+    - role: Wind turbine maintenance engineer
+      time: 2013 - 2015
+      company: Belwind
+      details: |
+        After experiencing the oil and gas industry, I wanted to work on renewables. 
+        As maintenance engineer, I spend quite a lot of time on the Belgian offshore 
+        wind turbines. I dived into the (financial) reporting to the management and shareholders. 
+        I became an Excel guru and played with numbers every day. I realized I lacked some knowledge
+        and took a year off to study statistics.
+    - role: Data scientist
+      time: 2016 - 2017
+      company: KBC data lab
+      details: |
+        After studying statistics, I joined the big-data lab of a large Belgian bank (KBC). It was a
+        perfect hands-on environment to master all the techniques I learned in the master of
+        statistics. Surrounded by phd levels, I learned about more or less every single data related
+        technology.
+    - role: Founder - Data scientist
+      time: 2017 - 2019
+      company: Rockestate
+      details: |
+        I made my master thesis in statistics about enriching house listings with open data to 
+        predict the price of each house in Belgium. I continued to work on it during the weekends, 
+        and in 2017 I convinced two associates to start up the company Rockestate. Multiple banks and 
+        insurers now use the Rockestate curated data-lake and products. I left the company because after
+        four years it is was time for something new. 
+
+projects:
+    title: Projects
+    intro: >
+        My CV might look a bit all over the place. I prefer talking about the projects I worked on in the past. 
+    assignments:
+      - title: Rockestate - Zimmo Prijswijzer
+        link: "www.zimmo.be/nl/prijswijzer"
+        tagline: "Zimmo, a belgian online real estate platform, asked Rockestate to build an online tool to help
+                  users predict the price of their house. We have build the entire backend. The statistical model
+                  is based upon a geo-spatial regression technique, called Geographically Weighted Regression. 
+                  I originally developed this model during my master thesis"
+
+      - title: Names I Like
+        link: "www.namesilike.com"
+        tagline: "A couple of years ago, all of my friends started to have kids (I have two kids of my own by
+                now). I thought I could help my girlfriend predicting which name they were going to pick. 
+                This hobby project turned into a website with over 100k visitors per year. The backend is 
+                based on a recommender algorithm based upon matrix factorization, made famous by the Netflix
+                competition."
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python 
+        details: [Statistics, Machine learning]
+        level: 98%
+
+      - name: Python 
+        details: [Backend development]
+        level: 98%
+
+      - name: SQL
+        level: 98%
+
+      - name: Javascript 
+        details: [Front-end development]
+        level: 95%
+
+      - name: HTML / CSS 
+        details: [Front-end development]
+        level: 85%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
