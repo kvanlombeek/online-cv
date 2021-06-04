@@ -35,11 +35,11 @@ sidebar:
         level: Daily conversations
 
     interests:
-      - item: Windsurfing
-        link:
+      - item: My kids
+        link: 
 
-      - item: 
-        link:
+      - item: Windsurfing, mountainbiking
+        link: 
 
       - item: 
         link:
@@ -48,7 +48,7 @@ career-profile:
     title: Career Profile
     summary: |
       I like to call myself a full stack data-scientist, as I am interested in 
-      every aspect of modern data-science. From cleaning small .csv files to large Postgress databases,
+      every aspect of modern data-science. From cleaning small data files to large cloud databases,
       from training a linear model to a deep neural net, from a Matplotlib visualisation to a 
       responsive web application.
 
@@ -92,8 +92,8 @@ experiences:
         After experiencing the oil and gas industry, I wanted to work on renewables. 
         As maintenance engineer, I spend quite a lot of time on the Belgian offshore 
         wind turbines. I dived into the (financial) reporting to the management and shareholders. 
-        I became an Excel guru and played with numbers every day. I realized I lacked some knowledge
-        and took a year off to study statistics.
+        I became an Excel guru and played with numbers every day. I realized however that 
+        I lacked some knowledge and took a year off to study statistics.
     - role: Data scientist
       time: 2016 - 2017
       company: KBC data lab
@@ -112,10 +112,20 @@ experiences:
         insurers now use the Rockestate curated data-lake and products. I left the company because after
         four years it is was time for something new. 
 
+    - role: Freelance Data scientist
+      time: 2020-201
+      company: The Jobcoach
+      details: |
+        I developed an online personality test used as a lead generation tool by The Jobcoach. 
+        You can try it out on test.jobmatchter.com. The test is done by around 30 persons per day,
+        and has a conversion rate of around 10%. I did everything myself, I trained and deployed 
+        the algorithm, and developed the front-end of the website.
+
+
 projects:
     title: Projects
     intro: >
-        My CV might look a bit all over the place. I prefer talking about the projects I worked on in the past. 
+        
     assignments:
       - title: Rockestate - Zimmo Prijswijzer
         link: "www.zimmo.be/nl/prijswijzer"
@@ -130,7 +140,7 @@ projects:
                 now). I thought I could help my girlfriend predicting which name they were going to pick. 
                 This hobby project turned into a website with over 100k visitors per year. The backend is 
                 based on a recommender algorithm based upon matrix factorization, made famous by the Netflix
-                competition."
+                competition. You can try it out on www.namesilike.com"
 
 publications:
     title: Publications
@@ -158,24 +168,24 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python 
-        details: [Statistics, Machine learning]
-        level: 98%
+      - name: Python (Scikit-learn, Flask)
+        details: []
+        level: 99%
 
-      - name: Python 
-        details: [Backend development]
-        level: 98%
+      - name: Javascript (Vue)
+        details: []
+        level: 99%
 
-      - name: SQL
-        level: 98%
+      - name: Amazon web services
+        level: 100%
 
-      - name: Javascript 
-        details: [Front-end development]
-        level: 95%
+      - name: Statistics
+        details: 
+        level: 100%
 
-      - name: HTML / CSS 
-        details: [Front-end development]
-        level: 85%
+      - name: Machine learning
+        details: 
+        level: 100%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
