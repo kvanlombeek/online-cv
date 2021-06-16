@@ -48,9 +48,9 @@ career-profile:
     title: Career Profile
     summary: |
       I like to call myself a full stack data-scientist, as I am interested in 
-      every aspect of modern data-science. From cleaning small data files to large cloud databases,
-      from training a linear model to a deep neural net, from a Matplotlib visualisation to a 
-      responsive web application.
+      every aspect of modern data-science. From cleaning small data files to processing data
+      distributed over several clusters, from training a linear model to a deep neural net, 
+      from a Matplotlib visualisation to building a responsive web application.
 
 
 
@@ -170,11 +170,19 @@ skills:
     toolset:
       - name: Python (Scikit-learn, Flask)
         details: []
-        level: 99%
+        level: 100%
 
       - name: Javascript (Vue)
         details: []
-        level: 99%
+        level: 100%
+
+      - name: SQL
+        details: []
+        level: 100%        
+
+      - name: PySpark
+        details: []
+        level: 100%                
 
       - name: Amazon web services
         level: 100%
